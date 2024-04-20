@@ -1,0 +1,29 @@
+/* ==== HEADER === */
+header .esloganHeader{    
+    color: #ffffff;
+  }
+#headerDiv{
+  background-color: #003ab0;
+  display: grid;
+  place-items: center;
+  min-height: 150px;
+}
+.headerDivImg{
+  height: 100px;
+}
+#headerDiv p{
+  font-size: 1.5rem;
+  text-align: center;
+}
+#headerNav{
+  background-color: #c7c3c5;
+  min-height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#headerNav a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+}

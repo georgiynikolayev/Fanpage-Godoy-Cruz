@@ -1,0 +1,74 @@
+/* tabla jugadores plantel_2023.html */
+.tablaPlantelDiv{
+    display: flex;
+    justify-content: space-around;
+}
+.tablaPlantel{
+    table-layout: auto;
+    width: 550px;
+    text-align: center;
+    font-size: 20px;
+    border: 4px solid #000000;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.flag img{
+    width: 30px;
+}
+.tablaPlantel th{
+    background-color: #16315D;
+    color: #ffffff;
+}
+.tablaPlantel td,.tablaPlantel th{
+    border: 1px solid #000000;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.ARQ{
+    background-color: #fcc87a;
+}
+.DEF{
+    background-color: #77adeb;
+}
+.MED{
+    background-color: #68e068;
+}
+.DEL{
+    background-color: #ff7a7a;
+}
+
+/* CuerpoTecnicoDatos */
+
+#tittleListCuerpoTecnico{
+    display:flex;
+    place-items: center;
+}
+#tittleListCuerpoTecnico img{
+    width: 56px;
+    height: 68px;
+    margin-left: 15px;
+    margin-right:10px;
+}
+.listCuerpoTecnico{
+    margin: 100px;
+    width: 270px;
+    font-size: 20px;
+}
+.listCuerpoTecnico h2{
+    font-size: 25px;
+    color: #16315D;
+}
+.flag_ct{
+    width: 20px;
+}
+.itemsListCuerpoTecnico b{
+    font-size: 20px;
+    color: #16315D;
+}
+.itemsListCuerpoTecnico i{
+    font-size: 14px;
+    color: #c7c3c5;
+}

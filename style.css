@@ -1,0 +1,490 @@
+*{
+    font-family: 'TW Cen MT', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Header */
+header{
+    display: flex;
+    flex-direction:row;
+    color: #ffffff;
+    min-height: 150px;
+    background: #002988;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo_header{
+    display: flex;
+}
+#logo_name{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 50px;
+    margin: 25px;
+}
+#logo_name:hover{
+    color:#BEB4B1;
+}
+#logo_img{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.hiperlink {
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.hiperlink:hover{
+    color:#BEB4B1;
+}
+body{
+    margin: 0;
+}
+/* footer */
+footer{
+    font-family: "Tw Cent MT", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    background-color: #7D7F7E;
+    color:#ffffff;
+}
+#footer-copyright{
+    text-align: center;
+}
+#official-social_networks{
+    margin-top: 25px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+.official-social_networks img{
+    width: 20px;
+    mask-image: #ffffff;
+}
+.official-social_networks{
+    font-size: 18px;
+    text-decoration: none;
+    color:#ffffff;
+}
+.official-social_networks:hover{
+    color:#002988;
+}
+/* CONTENIDO DE index.html */
+.summary_info_club_index{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+#summary_info_club{
+    margin-top: 20px;
+    margin-left: 127px;
+    text-align: justify;
+    width: 100%;
+}
+#summary_info_club h1{
+    color:#002988;
+    font-size: 50px;
+    margin-top: 0px;
+}
+#summary_info_club h3{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.summary_info_club_text{
+    margin-top: 30px;
+    font-size: 25px;
+}
+.img-plantel-div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 32px;
+}
+.img-plantel{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.img-plantel > a{
+    text-decoration: none;
+}
+.img-plantel_img{
+    display: grid;
+    grid-template-rows: minmax(100%, 1fr);
+    grid-template-areas: "stack";
+    overflow: hidden;
+    border: 3px solid #002988;
+    border-radius: 20px;
+    filter: brightness(1);
+    transition: filter 1s;
+}
+.img-plantel_img img, .img-plantel_img figcaption{
+    grid-area: stack;
+}
+.img-plantel_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-plantel_img figcaption{
+    color: #00000000;
+    place-items: center;
+    display: grid;
+    font-size: 100px;
+}
+.img-plantel_img:hover{
+    filter: brightness(0.6);
+}
+.img-plantel_img:hover figcaption{
+    color: #ffffff;
+}
+#content_list{
+    margin:20px;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.tablas-pos-gc{
+    width: 400px;
+    height: 300px;
+    margin-right: 70px;
+}
+.tablas-pos-gc > h3{
+    margin:5px;
+}
+.tablas-pos-gc-2023{
+    table-layout: auto;
+    width: 400px;
+    text-align: center;
+    font-size: 20px;
+    border: 4px solid #000000;
+    border-collapse: collapse;
+    caption-side: bottom;
+}
+.tablas-pos-gc-2023 th{
+    background-color: #000000;
+    color: #ffffff;
+}
+.tablas-pos-gc-2023 td, .tablas-pos-gc-2023 th{
+    border: 1px solid #000000;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.pos-gc{
+    background-color: #3672ff;
+    color: #ffffff;
+}
+/* img plantel index.html*/
+#body-plantel-2023{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/* tabla jugadores plantel_2023.html */
+.tabla-plantel{
+    margin-left:100px;
+    table-layout: auto;
+    width: 550px;
+    text-align: center;
+    font-size: 20px;
+    border: 4px solid #000000;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.flag img{
+    width: 30px;
+}
+.tabla-plantel th{
+    background-color: #000000;
+    color: #ffffff;
+}
+.tabla-plantel td,.tabla-plantel th{
+    border: 1px solid #000000;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.jug-arq{
+    background-color: #fcc87a;
+}
+.jug-def{
+    background-color: #77adeb;
+}
+.jug-med{
+    background-color: #68e068;
+}
+.jug-del{
+    background-color: #ff7a7a;
+}
+/* formation plantel_2023.html */
+.formacion_y_cuerpo_tecnico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right:100px;
+    margin-top:100px;
+}
+#body-plantel-2023{
+    display: flex;
+    flex-direction: row;
+}
+.grafica-de-la-formacion{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formacion{
+    width: 612px;
+    height: 369px;
+    background-image:url(../Img/cancha.png);
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    color:#ffffff;
+    text-shadow: 1px 1px #000000;
+}
+.img-jug-cancha{
+    width: 30px;
+}
+.num-jug{
+    margin: auto;
+    width: 24px;
+    height: 24px;
+    font-size: 17px;
+    border: 2px solid #ffffff;
+    background-color: #002988;
+    border-radius: 100%;
+}
+.arq{
+    width: 80px;
+    margin-top:170px;
+    margin-left:10px;
+    text-align: center;
+}
+.arq .num-jug,.arq h4{
+    margin-top: 5px;
+}
+.def{
+    width: 120px;
+    margin-top: 50px;
+    text-align: center;
+}
+.def .num-jug{
+    margin-top: 10px;
+}
+
+.def h4{
+    margin-top: 5px;
+}
+.md{
+    width: 120px;
+    margin-top: 100px;
+    text-align: center;
+}
+.md .num-jug,.md h4{
+    margin-top: 5px;
+}
+.md1 .num-jug{
+    margin-top: 70px;
+}
+.mo{
+    width: 120px;
+    margin-top: 79px;
+    text-align: center;
+}
+.mo .num-jug,.mo h4{
+    margin-top: 5px;
+}
+.mo1 .num-jug{
+    margin-top: 35px;
+}
+.mo2 .num-jug{
+    margin-top: 35px;
+}
+.del{
+    width: 80px;
+    margin-top:170px;
+    text-align: center;
+}
+.del .num-jug,.del h4{
+    margin-top: 5px;
+}
+/* Cuerpo Técnico */
+#tittle_list_cuerpo_tecnico{
+    display:flex;
+    flex-direction: row;
+}
+#tittle_list_cuerpo_tecnico img{
+    width: 56px;
+    height: 68px;
+    margin-left: 15px;
+    margin-right:10px;
+}
+.list_cuerpo_tecnico{
+    margin: 100px;
+    width: 270px;
+    font-size: 20px;
+}
+.list_cuerpo_tecnico h2{
+    font-size: 25px;
+}
+.flag_ct{
+    width: 20px;
+}
+/* CAMPAÑAS */
+.seccionBuscador{
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+}
+#buscadorCamp{
+    border-radius: 8px;
+    font-size: 20px;
+    width: 50%;
+    height: 30px;
+}
+#buscadorCamp:hover{
+    border-color: #002988;
+}
+.textoParaBuscar{
+    display: none;
+}
+.list_completa_camp ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 32px;
+}
+.list_camp{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.list_camp > a{
+    text-decoration: none;
+}
+.list_camp_img{
+    width: 450px;
+    height: 275px;
+    display: grid;
+    grid-template-rows: minmax(100%, 1fr);
+    grid-template-areas: "stack";
+    overflow: hidden;
+    border: 3px solid #002988;
+    border-radius: 20px;
+}
+.list_camp_img img, .list_camp_img figcaption{
+    grid-area: stack;
+}
+.list_camp_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.list_camp_img figcaption{
+    background-color: #000000cc;
+    transform: translateY(calc(100% - 3rem));
+    transition: transform 0.6s;
+    color: #ffffff;
+    text-align: center;
+}
+.list_camp_img > figcaption > h3{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.list_camp_img > figcaption > p{
+    font-size: 30px;
+}
+.list_camp_img:hover figcaption{
+    transform: none;
+}
+.textoFiltrado{
+    display: none !important;
+}
+
+.tablas_camp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tabla_general{
+    table-layout: auto;
+    width: 650px;
+    margin-left: 120px;
+}
+.tabla_goleadores{
+    table-layout: auto;
+    width: 500px;
+    height: 350px;
+    margin-right: 170px;
+}
+.partidos_gc{
+    table-layout: auto;
+    width: 1400px;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.tabla_general,.tabla_goleadores,.partidos_gc{
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    border: 4px solid #000000;
+    border-collapse: collapse;
+}
+.tabla_general th,.tabla_goleadores th,.partidos_gc th{
+    background-color: #000000;
+    color: #ffffff;
+}
+.tabla_general td,.tabla_goleadores td,.partidos_gc td,.tabla_general th,.tabla_goleadores th,.partidos_gc th{
+    border: 1px solid #000000;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.video_partido img{
+    width: 30px;
+}
+.camp-text h2{
+    font-family: 'Tw Cen MT', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.camp-text p{
+    font-size: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.camp-text a{
+    place-items: center;
+    display: grid;
+}
+@media (max-width:1151px){
+    header{
+      flex-direction: column;
+    }
+    nav{
+      padding: 10px 0px;
+    }
+    .summary_info_club_index{
+        flex-direction: column;
+        text-align: center;
+    }
+    #summary_info_club{
+        margin-left: 0px;
+    }
+    .tablas-pos-gc{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #content_list{
+        flex-direction: row;
+    }
+  }

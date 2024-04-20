@@ -1,0 +1,26 @@
+footer{
+    align-items: center;
+    background-color: #7D7F7E;
+    color:#ffffff;
+}
+#footer-copyright{
+    text-align: center;
+}
+#official-social_networks{
+    margin-top: 25px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+.official-social_networks img{
+    width: 20px;
+    mask-image: #ffffff;
+}
+.official-social_networks{
+    font-size: 18px;
+    text-decoration: none;
+    color:#ffffff;
+}
+.official-social_networks:hover{
+    color:#002988;
+}

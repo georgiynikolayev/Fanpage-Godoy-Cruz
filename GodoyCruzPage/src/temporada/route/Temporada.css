@@ -1,0 +1,39 @@
+#temporadasDiv{
+    display: grid;
+    place-content: center;
+    margin-top: 20px;
+}
+#temporadasDiv h2{
+    display: grid;
+    place-content: center;
+    font-size: 40px;
+}
+.tablaTemporadas{
+    table-layout: auto;
+    text-align: center;
+    font-size: 15px;
+    border: 4px solid #000000;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.tablaTemporadas th{
+    background-color: #16315D;
+    color: #ffffff;
+}
+.tablaTemporadas td,.tablaTemporadas th{
+    border: 1px solid #000000;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.Godoy{
+    background-color: #3672ff;
+    color: #ffffff;
+}
+.linkVideoYoutube{
+    width: 30px;
+}
+.novideo{
+    display: none;
+}

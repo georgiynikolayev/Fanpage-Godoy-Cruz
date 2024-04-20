@@ -1,0 +1,24 @@
+.tablaPosiciones{
+    table-layout: auto;
+    width: 377px;
+    text-align: center;
+    font-size: 15px;
+    border: 4px solid #000000;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.tablaPosiciones th{
+    background-color: #16315D;
+    color: #ffffff;
+}
+.tablaPosiciones td,.tablaPosiciones th{
+    border: 1px solid #000000;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    max-width: 16px;
+}
+.tablaEquipoNombre{
+    min-width: 100px;
+}

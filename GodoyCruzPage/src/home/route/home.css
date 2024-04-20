@@ -1,0 +1,19 @@
+#homeContent{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#summaryInfoClub{
+    margin-top: 20px;
+    margin-right: 50px;
+    text-align: justify;
+    width: 70%;
+}
+#summaryInfoClub h3{
+    font-size: 30px;
+}
+.summaryInfoClubText{
+    margin-top: 30px;
+    font-size: 25px;
+}
